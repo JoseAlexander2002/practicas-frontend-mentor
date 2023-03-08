@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fraunces', serif;
+}
+.caja-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(30, 38%, 92%);
+}
+.container{
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  width: 40%;
+}
+.caja-perfume{
+  width: auto;
+  height: 90%;
+  border-radius: 5px;
+}
+#img-perfume{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  width: 300px;
+}
+.caja-descripcion-perfume{
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 55px;
+}
+.titulo{
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 15px;
+}
+h5{
+  font-size: 2rem;
+  color: hsl(212, 21%, 14%);
+}
+#parrafo{
+  margin-top: 20px;
+  color: hsl(228, 12%, 48%);
+}
+.caja-precios{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.precio-ahora{
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+}
+.precio-antes{
+  color: hsl(158, 36%, 37%);
+  font-size: 8px;
+  text-decoration: line-through;
+}
+#btn{
+  width: 100%;
+  margin-top: 30px;
+  height: 10%;
+  border-radius: 5px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+}
+#btn:hover{
+  background-color: hsl(158, 76%, 11%);
+}
